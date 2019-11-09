@@ -1,0 +1,138 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+        {
+            "path": "pages/home/home",
+            "style": {
+                "navigationBarTitleText": "首页",
+                "disableScroll": true
+            }
+        }, {
+            "path": "pages/ball/ball",
+            "style": {
+                "navigationBarTitleText": "约球",
+                "disableScroll": true
+            }
+        }, {
+            "path": "pages/competition/competition",
+            "style": {
+                "navigationBarTitleText": "比赛",
+                "disableScroll": true
+            }
+        }, {
+            "path": "pages/competition/detail",
+            "style": {
+                "navigationBarTitleText": "比赛详情",
+                "disableScroll": true
+            }
+        }, {
+            "path": "pages/competition/apply",
+            "style": {
+                "navigationBarTitleText": "比赛报名",
+                "disableScroll": true
+            }
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style": {
+                "navigationBarTitleText": "个人中心",
+                "disableScroll": true
+            }
+        },
+        {
+            "path":"pages/mine/order-item",
+            "style": {
+                "navigationBarTitleText": "我的约球",
+                "disableScroll": true
+            }
+        },
+        {
+            "path":"pages/mine/depart",
+            "style": {
+                "navigationBarTitleText": "我的部门",
+                "disableScroll": true
+            }
+        },
+        {
+            "path":"pages/mine/information/information",
+            "style": {
+                "navigationBarTitleText": "个人信息",
+                "disableScroll": true
+            }
+        },
+        {
+            "path":"pages/mine/information/edit",
+            "style": {
+                "navigationBarTitleText": "编辑信息",
+                "disableScroll": true
+            }
+        }
+        ,{
+            "path" : "pages/skin-change/skin-change",
+            "style": {
+                "navigationBarTitleText": "主题切换",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录",
+                "disableScroll": true
+            }
+        }, {
+            "path": "pages/login/forget",
+            "style": {
+                "navigationBarTitleText": "忘记密码",
+                "disableScroll": true
+            }
+        }, {
+            "path": "pages/login/register",
+            "style": {
+                "navigationBarTitleText": "注册",
+                "disableScroll": true
+            }
+        }, {
+            "path": "pages/login/rules",
+            "style": {
+                "navigationBarTitleText": "羽协章程",
+                "disableScroll": true
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "凌飞羽协",
+        "navigationBarBackgroundColor": "#56ABC5",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#cdcdcd",
+        "selectedColor": "#50B7EA",
+        "borderStyle": "white",
+        "backgroundColor": "#eee",
+        "list": [{
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "static/index_1.png",
+                "selectedIconPath": "static/index_2.png"
+            }, {
+                "pagePath": "pages/competition/competition",
+                "text": "比赛",
+                "iconPath": "static/competition_1.png",
+                "selectedIconPath": "static/competition_2.png"
+            },
+            {
+                "pagePath": "pages/ball/ball",
+                "text": "约球",
+                "iconPath": "static/ball_1.png",
+                "selectedIconPath": "static/ball_2.png"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "我的",
+                "iconPath": "static/mine_1.png",
+                "selectedIconPath": "static/mine_2.png"
+            }
+        ]
+    }
+}
